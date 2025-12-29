@@ -1,0 +1,170 @@
+[
+    {
+      "instituteName": "Visvesvaraya National Institute of Technology (VNIT) Nagpur",
+      "instituteCode": "NG001",
+      "state": "Maharashtra",
+      "district": "Nagpur",
+      "taluka": "Nagpur",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG", "PG"]
+    },
+    {
+      "instituteName": "Shri Ramdeobaba College of Engineering and Management (RCOEM)",
+      "instituteCode": "NG002",
+      "state": "Maharashtra",
+      "district": "Nagpur",
+      "taluka": "Nagpur",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG", "PG"]
+    },
+    {
+      "instituteName": "Yeshwantrao Chavan College of Engineering",
+      "instituteCode": "NG003",
+      "state": "Maharashtra",
+      "district": "Nagpur",
+      "taluka": "Nagpur",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG"]
+    },
+    {
+      "instituteName": "G. H. Raisoni College of Engineering",
+      "instituteCode": "NG004",
+      "state": "Maharashtra",
+      "district": "Nagpur",
+      "taluka": "Nagpur",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG", "PG"]
+    },
+    {
+      "instituteName": "Anjuman College of Engineering & Technology",
+      "instituteCode": "NG005",
+      "state": "Maharashtra",
+      "district": "Nagpur",
+      "taluka": "Nagpur",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG"]
+    },
+    {
+      "instituteName": "Government Polytechnic Nagpur",
+      "instituteCode": "NG006",
+      "state": "Maharashtra",
+      "district": "Nagpur",
+      "taluka": "Nagpur",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["Diploma"]
+    },
+  
+    {
+      "instituteName": "Shri Santaji College of Engineering & Technology",
+      "instituteCode": "WD001",
+      "state": "Maharashtra",
+      "district": "Wardha",
+      "taluka": "Wardha",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG"]
+    },
+    {
+      "instituteName": "Bajaj Institute of Technology",
+      "instituteCode": "WD002",
+      "state": "Maharashtra",
+      "district": "Wardha",
+      "taluka": "Wardha",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG"]
+    },
+    {
+      "instituteName": "Government Polytechnic Wardha",
+      "instituteCode": "WD003",
+      "state": "Maharashtra",
+      "district": "Wardha",
+      "taluka": "Wardha",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["Diploma"]
+    },
+  
+    {
+      "instituteName": "Nagar Yuwak Shikshan Sanstha’s Institute of Engineering & Technology",
+      "instituteCode": "BN001",
+      "state": "Maharashtra",
+      "district": "Bhandara",
+      "taluka": "Bhandara",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG"]
+    },
+    {
+      "instituteName": "Government Polytechnic Bhandara",
+      "instituteCode": "BN002",
+      "state": "Maharashtra",
+      "district": "Bhandara",
+      "taluka": "Bhandara",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["Diploma"]
+    },
+  
+    {
+      "instituteName": "Nagar Yuwa Institute of Engineering & Technology",
+      "instituteCode": "GO001",
+      "state": "Maharashtra",
+      "district": "Gondia",
+      "taluka": "Gondia",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG"]
+    },
+    {
+      "instituteName": "Government Polytechnic Gondia",
+      "instituteCode": "GO002",
+      "state": "Maharashtra",
+      "district": "Gondia",
+      "taluka": "Gondia",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["Diploma"]
+    },
+  
+    {
+      "instituteName": "Rajiv Gandhi College of Engineering Research & Technology",
+      "instituteCode": "CP001",
+      "state": "Maharashtra",
+      "district": "Chandrapur",
+      "taluka": "Chandrapur",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG", "PG"]
+    },
+    {
+      "instituteName": "Government College of Engineering Chandrapur",
+      "instituteCode": "CP002",
+      "state": "Maharashtra",
+      "district": "Chandrapur",
+      "taluka": "Chandrapur",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG"]
+    },
+    {
+      "instituteName": "Government Polytechnic Chandrapur",
+      "instituteCode": "CP003",
+      "state": "Maharashtra",
+      "district": "Chandrapur",
+      "taluka": "Chandrapur",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["Diploma"]
+    },
+  
+    {
+      "instituteName": "Government College of Engineering Gadchiroli",
+      "instituteCode": "GC001",
+      "state": "Maharashtra",
+      "district": "Gadchiroli",
+      "taluka": "Gadchiroli",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG"]
+    },
+    {
+      "instituteName": "Government Polytechnic Gadchiroli",
+      "instituteCode": "GC002",
+      "state": "Maharashtra",
+      "district": "Gadchiroli",
+      "taluka": "Gadchiroli",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["Diploma"]
+    }
+  ]
+  

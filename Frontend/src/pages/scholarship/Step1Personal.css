@@ -1,0 +1,190 @@
+/* ================= GLOBAL BACKGROUND ================= */
+body,
+#root {
+  background: #faf5ec;
+}
+
+/* ================= PAGE LAYOUT ================= */
+.page-container {
+  min-height: 100vh;
+  background: #faf5ec;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 120px;
+  padding-bottom: 80px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.scholarship-form-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+/* ================= MAIN CARD ================= */
+.form-box {
+  width: 100%;
+  max-width: 1100px;
+  background: #ffffff;
+  border-radius: 28px;
+  padding: 48px 56px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+  flex: 1;
+}
+
+/* ================= HEADINGS ================= */
+.form-title {
+  font-size: 32px;
+  font-weight: 600;
+  color: #2e2a26;
+  margin-bottom: 40px;
+}
+
+.section-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #2e2a26;
+  margin: 48px 0 24px;
+}
+
+/* ================= GRID SYSTEM ================= */
+.grid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 28px 48px;
+}
+
+/* Extra spacing after Address field */
+.grid-1 {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-top: 5px;
+  margin-bottom: 15px;   /* 🔥 THIS creates space before City */
+}
+
+
+/* ================= FIELD ================= */
+.field {
+  display: flex;
+  flex-direction: column;
+}
+
+.field label {
+  font-size: 14px;
+  font-weight: 500;
+  color: #2e2a26;
+  margin-bottom: 8px;
+}
+
+/* ================= INPUTS & SELECTS ================= */
+.field input,
+.field select {
+  height: 52px;
+  padding: 0 16px;
+  border-radius: 10px;
+  border: 1px solid #d1d5db;
+  background-color: #ffffff;
+  color: #111827;
+  font-size: 15px;
+
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+/* Placeholder */
+.field input::placeholder {
+  color: #9ca3af;
+  opacity: 1;
+  font-weight: 400;
+}
+
+/* Focus */
+.field input:focus,
+.field select:focus {
+  outline: none;
+  border-color: #3a3129;
+  background-color: #ffffff;
+}
+
+/* Autofill fix */
+.field input:-webkit-autofill,
+.field input:-webkit-autofill:hover,
+.field input:-webkit-autofill:focus {
+  -webkit-text-fill-color: #111827;
+  box-shadow: 0 0 0px 1000px #ffffff inset;
+  transition: background-color 9999s ease-in-out 0s;
+}
+
+/* ================= DROPDOWN ARROW ================= */
+.field select {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' fill='none' stroke='%23666' stroke-width='2' viewBox='0 0 24 24'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 14px center;
+  background-size: 14px;
+  padding-right: 40px;
+}
+
+/* ================= FILE INPUT ================= */
+.field input[type="file"] {
+  height: auto;
+  padding: 10px;
+  border-radius: 10px;
+  background: #ffffff;
+  cursor: pointer;
+}
+
+/* ================= ACTIONS ================= */
+.form-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 56px;
+}
+
+.next-btn {
+  padding: 14px 56px;
+  border-radius: 14px;
+  background: #3a3129;
+  color: #ffffff;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.next-btn:hover {
+  opacity: 0.95;
+}
+
+/* ================= RESPONSIVE ================= */
+@media (max-width: 900px) {
+  .grid-2 {
+    grid-template-columns: 1fr;
+  }
+
+  .form-box {
+    padding: 32px 24px;
+  }
+
+  .form-title {
+    font-size: 26px;
+  }
+}
+
+.file-input {
+  cursor: pointer;
+}
+
+.file-hint {
+  color: red;
+  font-size: 13px;
+  margin-top: 6px;
+}
+
+.file-error {
+  color: red;
+  font-size: 13px;
+  margin-top: 4px;
+}
+

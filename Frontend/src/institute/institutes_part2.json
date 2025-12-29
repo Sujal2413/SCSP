@@ -1,0 +1,122 @@
+[
+    {
+      "instituteName": "Government College of Engineering, Karad",
+      "instituteCode": "ST001",
+      "state": "Maharashtra",
+      "district": "Satara",
+      "taluka": "Karad",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG", "PG"]
+    },
+    {
+      "instituteName": "Satara Polytechnic College",
+      "instituteCode": "ST002",
+      "state": "Maharashtra",
+      "district": "Satara",
+      "taluka": "Satara",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["Diploma"]
+    },
+    {
+      "instituteName": "Yashoda Technical Campus",
+      "instituteCode": "ST003",
+      "state": "Maharashtra",
+      "district": "Satara",
+      "taluka": "Wai",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG"]
+    },
+    {
+      "instituteName": "D.Y. Patil College of Engineering & Technology",
+      "instituteCode": "ST004",
+      "state": "Maharashtra",
+      "district": "Satara",
+      "taluka": "Patan",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["Diploma", "UG"]
+    },
+  
+    {
+      "instituteName": "Walchand College of Engineering",
+      "instituteCode": "SG001",
+      "state": "Maharashtra",
+      "district": "Sangli",
+      "taluka": "Sangli",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG", "PG"]
+    },
+    {
+      "instituteName": "Government Polytechnic Sangli",
+      "instituteCode": "SG002",
+      "state": "Maharashtra",
+      "district": "Sangli",
+      "taluka": "Miraj",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["Diploma"]
+    },
+    {
+      "instituteName": "Adarsh Institute of Technology & Research Centre",
+      "instituteCode": "SG003",
+      "state": "Maharashtra",
+      "district": "Sangli",
+      "taluka": "Vita",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG"]
+    },
+    {
+      "instituteName": "Sanjay Bhokare Group of Institutes",
+      "instituteCode": "SG004",
+      "state": "Maharashtra",
+      "district": "Sangli",
+      "taluka": "Miraj",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["Diploma", "UG"]
+    },
+  
+    {
+      "instituteName": "Shivaji University Engineering Technology Campus",
+      "instituteCode": "KP001",
+      "state": "Maharashtra",
+      "district": "Kolhapur",
+      "taluka": "Karveer",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG", "PG"]
+    },
+    {
+      "instituteName": "Government College of Engineering, Kolhapur",
+      "instituteCode": "KP002",
+      "state": "Maharashtra",
+      "district": "Kolhapur",
+      "taluka": "Karveer",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG"]
+    },
+    {
+      "instituteName": "D.Y. Patil College of Engineering & Technology, Kolhapur",
+      "instituteCode": "KP003",
+      "state": "Maharashtra",
+      "district": "Kolhapur",
+      "taluka": "Hatkanangle",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG", "PG"]
+    },
+    {
+      "instituteName": "Sharad Institute of Technology College of Engineering",
+      "instituteCode": "KP004",
+      "state": "Maharashtra",
+      "district": "Kolhapur",
+      "taluka": "Ichalkaranji",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG"]
+    },
+    {
+      "instituteName": "Kolhapur Institute of Technology's College of Engineering",
+      "instituteCode": "KP005",
+      "state": "Maharashtra",
+      "district": "Kolhapur",
+      "taluka": "Karveer",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG", "PG"]
+    }
+]
+  

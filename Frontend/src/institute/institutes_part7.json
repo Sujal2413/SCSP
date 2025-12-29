@@ -1,0 +1,151 @@
+[
+    {
+      "instituteName": "Aditya Engineering College",
+      "instituteCode": "BD001",
+      "state": "Maharashtra",
+      "district": "Beed",
+      "taluka": "Beed",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG"]
+    },
+    {
+      "instituteName": "Government Polytechnic Beed",
+      "instituteCode": "BD002",
+      "state": "Maharashtra",
+      "district": "Beed",
+      "taluka": "Beed",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["Diploma"]
+    },
+    {
+      "instituteName": "Sanjivani Rural Education Society’s College of Engineering",
+      "instituteCode": "BD003",
+      "state": "Maharashtra",
+      "district": "Beed",
+      "taluka": "Parli",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG"]
+    },
+    {
+      "instituteName": "K. T. Patil College of Engineering",
+      "instituteCode": "BD004",
+      "state": "Maharashtra",
+      "district": "Beed",
+      "taluka": "Georai",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG"]
+    },
+  
+    {
+      "instituteName": "Terna Public Charitable Trust's College of Engineering",
+      "instituteCode": "OS001",
+      "state": "Maharashtra",
+      "district": "Osmanabad",
+      "taluka": "Osmanabad",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG", "PG"]
+    },
+    {
+      "instituteName": "Government Polytechnic Osmanabad",
+      "instituteCode": "OS002",
+      "state": "Maharashtra",
+      "district": "Osmanabad",
+      "taluka": "Osmanabad",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["Diploma"]
+    },
+    {
+      "instituteName": "Shri Tuljabhavani College of Engineering",
+      "instituteCode": "OS003",
+      "state": "Maharashtra",
+      "district": "Osmanabad",
+      "taluka": "Tuljapur",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG"]
+    },
+  
+    {
+      "instituteName": "M.S. Bidve Engineering College",
+      "instituteCode": "LT001",
+      "state": "Maharashtra",
+      "district": "Latur",
+      "taluka": "Latur",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG", "PG"]
+    },
+    {
+      "instituteName": "Government College of Engineering, Latur",
+      "instituteCode": "LT002",
+      "state": "Maharashtra",
+      "district": "Latur",
+      "taluka": "Latur",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG"]
+    },
+    {
+      "instituteName": "Shri Vile Parle Kelavani Mandal’s Institute of Technology",
+      "instituteCode": "LT003",
+      "state": "Maharashtra",
+      "district": "Latur",
+      "taluka": "Udgir",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG"]
+    },
+    {
+      "instituteName": "Government Polytechnic Latur",
+      "instituteCode": "LT004",
+      "state": "Maharashtra",
+      "district": "Latur",
+      "taluka": "Latur",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["Diploma"]
+    },
+  
+    {
+      "instituteName": "Shri Shivaji College of Engineering & Technology",
+      "instituteCode": "PB001",
+      "state": "Maharashtra",
+      "district": "Parbhani",
+      "taluka": "Parbhani",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG"]
+    },
+    {
+      "instituteName": "Government Polytechnic Parbhani",
+      "instituteCode": "PB002",
+      "state": "Maharashtra",
+      "district": "Parbhani",
+      "taluka": "Parbhani",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["Diploma"]
+    },
+    {
+      "instituteName": "Mahatma Basweshwar Engineering College",
+      "instituteCode": "PB003",
+      "state": "Maharashtra",
+      "district": "Parbhani",
+      "taluka": "Basmat",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG"]
+    },
+  
+    {
+      "instituteName": "Government College of Engineering, Hingoli",
+      "instituteCode": "HG001",
+      "state": "Maharashtra",
+      "district": "Hingoli",
+      "taluka": "Hingoli",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG"]
+    },
+    {
+      "instituteName": "Government Polytechnic Hingoli",
+      "instituteCode": "HG002",
+      "state": "Maharashtra",
+      "district": "Hingoli",
+      "taluka": "Hingoli",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["Diploma"]
+    }
+  ]
+  

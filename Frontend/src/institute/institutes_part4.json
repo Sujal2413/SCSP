@@ -1,0 +1,143 @@
+[
+    {
+      "instituteName": "K. K. Wagh Institute of Engineering Education & Research",
+      "instituteCode": "NS001",
+      "state": "Maharashtra",
+      "district": "Nashik",
+      "taluka": "Nashik",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG", "PG"]
+    },
+    {
+      "instituteName": "Sandip Institute of Engineering & Management",
+      "instituteCode": "NS002",
+      "state": "Maharashtra",
+      "district": "Nashik",
+      "taluka": "Nashik",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG", "PG"]
+    },
+    {
+      "instituteName": "MET's Institute of Engineering",
+      "instituteCode": "NS003",
+      "state": "Maharashtra",
+      "district": "Nashik",
+      "taluka": "Nashik",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG"]
+    },
+    {
+      "instituteName": "Guru Gobind Singh College of Engineering & Research Center",
+      "instituteCode": "NS004",
+      "state": "Maharashtra",
+      "district": "Nashik",
+      "taluka": "Niphad",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG"]
+    },
+    {
+      "instituteName": "J.T. Mahajan College of Engineering",
+      "instituteCode": "NS005",
+      "state": "Maharashtra",
+      "district": "Nashik",
+      "taluka": "Nandgaon",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG"]
+    },
+  
+    {
+      "instituteName": "Sandip Polytechnic",
+      "instituteCode": "NS006",
+      "state": "Maharashtra",
+      "district": "Nashik",
+      "taluka": "Nashik",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["Diploma"]
+    },
+    {
+      "instituteName": "Government Polytechnic, Nashik",
+      "instituteCode": "NS007",
+      "state": "Maharashtra",
+      "district": "Nashik",
+      "taluka": "Nashik",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["Diploma"]
+    },
+  
+    {
+      "instituteName": "SNJB's Late Sau. K. B. Jain College of Engineering",
+      "instituteCode": "NS008",
+      "state": "Maharashtra",
+      "district": "Nashik",
+      "taluka": "Chandwad",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG"]
+    },
+    {
+      "instituteName": "Vidya Vardhini Polytechnic",
+      "instituteCode": "NS009",
+      "state": "Maharashtra",
+      "district": "Nashik",
+      "taluka": "Igatpuri",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["Diploma"]
+    },
+  
+    {
+      "instituteName": "Gokhale Education Society's R. H. Sapat College of Engineering",
+      "instituteCode": "NS010",
+      "state": "Maharashtra",
+      "district": "Nashik",
+      "taluka": "Nashik",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG"]
+    },
+    {
+      "instituteName": "Sandip University - School of Engineering",
+      "instituteCode": "NS011",
+      "state": "Maharashtra",
+      "district": "Nashik",
+      "taluka": "Nashik",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG", "PG"]
+    },
+  
+    {
+      "instituteName": "Nashik Engineering & Management Institute",
+      "instituteCode": "NS012",
+      "state": "Maharashtra",
+      "district": "Nashik",
+      "taluka": "Sinnar",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG"]
+    },
+    {
+      "instituteName": "SND College of Engineering & Research Center",
+      "instituteCode": "NS013",
+      "state": "Maharashtra",
+      "district": "Nashik",
+      "taluka": "Yeola",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG"]
+    },
+  
+    {
+      "instituteName": "S.S.V.P.S. B.S.D. College of Engineering",
+      "instituteCode": "NS014",
+      "state": "Maharashtra",
+      "district": "Nashik",
+      "taluka": "Baglan",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG"]
+    },
+    {
+      "instituteName": "Nashik Cambridge College of Engineering",
+      "instituteCode": "NS015",
+      "state": "Maharashtra",
+      "district": "Nashik",
+      "taluka": "Nashik",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG"]
+    }
+  ]
+  

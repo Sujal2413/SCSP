@@ -1,0 +1,109 @@
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: #f9f4ec;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 40px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+  }
+  
+  /* LOGO */
+  .navbar-logo a {
+    font-size: 22px;
+    font-weight: 700;
+    color: #111;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+  }
+  
+  /* LINKS */
+  .navbar-links {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+  
+  .nav-link {
+    font-size: 15px;
+    color: #333;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 8px;
+    transition: background 0.2s ease;
+  }
+  
+  .nav-link:hover {
+    background: rgba(0, 0, 0, 0.05);
+  }
+  
+  /* BUTTONS */
+  .nav-btn {
+    font-size: 14px;
+    padding: 8px 18px;
+    border-radius: 22px;
+    text-decoration: none;
+    transition: all 0.25s ease;
+  }
+  
+  /* REGISTER */
+  .nav-btn.secondary {
+    border: 2px solid #111;
+    color: #111;
+    background: transparent;
+  }
+  
+  .nav-btn.secondary:hover {
+    background: #111;
+    color: #fff;
+  }
+  
+  /* LOGIN */
+  .nav-btn.primary {
+    background: #111;
+    color: #fff;
+    border: none;
+  }
+  
+  .nav-btn.primary:hover {
+    background: #000;
+    transform: translateY(-1px);
+  }
+
+  /* USER EMAIL DISPLAY */
+  .user-email-display {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 12px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .email-icon {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: #2f2a28;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+
+  .email-text {
+    font-size: 14px;
+    color: #333;
+    font-weight: 500;
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  

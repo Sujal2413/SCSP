@@ -1,0 +1,179 @@
+[
+    {
+      "instituteName": "Shri Guru Gobind Singhji Institute of Engineering & Technology",
+      "instituteCode": "ND001",
+      "state": "Maharashtra",
+      "district": "Nanded",
+      "taluka": "Nanded",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG", "PG"]
+    },
+    {
+      "instituteName": "Government Polytechnic Nanded",
+      "instituteCode": "ND002",
+      "state": "Maharashtra",
+      "district": "Nanded",
+      "taluka": "Nanded",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["Diploma"]
+    },
+    {
+      "instituteName": "MGM College of Engineering Nanded",
+      "instituteCode": "ND003",
+      "state": "Maharashtra",
+      "district": "Nanded",
+      "taluka": "Kinwat",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG"]
+    },
+  
+    {
+      "instituteName": "Shri Sant Gajanan Maharaj College of Engineering",
+      "instituteCode": "AK001",
+      "state": "Maharashtra",
+      "district": "Akola",
+      "taluka": "Akola",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG"]
+    },
+    {
+      "instituteName": "Government Polytechnic Akola",
+      "instituteCode": "AK002",
+      "state": "Maharashtra",
+      "district": "Akola",
+      "taluka": "Akola",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["Diploma"]
+    },
+    {
+      "instituteName": "Dr. Babasaheb Ambedkar College of Engineering & Research",
+      "instituteCode": "AK003",
+      "state": "Maharashtra",
+      "district": "Akola",
+      "taluka": "Murtizapur",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG"]
+    },
+  
+    {
+      "instituteName": "Government College of Engineering, Washim",
+      "instituteCode": "WS001",
+      "state": "Maharashtra",
+      "district": "Washim",
+      "taluka": "Washim",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG"]
+    },
+    {
+      "instituteName": "Government Polytechnic Washim",
+      "instituteCode": "WS002",
+      "state": "Maharashtra",
+      "district": "Washim",
+      "taluka": "Washim",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["Diploma"]
+    },
+  
+    {
+      "instituteName": "Government College of Engineering Amravati",
+      "instituteCode": "AM001",
+      "state": "Maharashtra",
+      "district": "Amravati",
+      "taluka": "Amravati",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG", "PG"]
+    },
+    {
+      "instituteName": "Prof. Ram Meghe Institute of Technology & Research",
+      "instituteCode": "AM002",
+      "state": "Maharashtra",
+      "district": "Amravati",
+      "taluka": "Badnera",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG"]
+    },
+    {
+      "instituteName": "Government Polytechnic, Amravati",
+      "instituteCode": "AM003",
+      "state": "Maharashtra",
+      "district": "Amravati",
+      "taluka": "Amravati",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["Diploma"]
+    },
+    {
+      "instituteName": "HVPM College of Engineering",
+      "instituteCode": "AM004",
+      "state": "Maharashtra",
+      "district": "Amravati",
+      "taluka": "Amravati",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG"]
+    },
+  
+    {
+      "instituteName": "Government College of Engineering Yavatmal",
+      "instituteCode": "YM001",
+      "state": "Maharashtra",
+      "district": "Yavatmal",
+      "taluka": "Yavatmal",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG"]
+    },
+    {
+      "instituteName": "Government Polytechnic Yavatmal",
+      "instituteCode": "YM002",
+      "state": "Maharashtra",
+      "district": "Yavatmal",
+      "taluka": "Yavatmal",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["Diploma"]
+    },
+    {
+      "instituteName": "Jawaharlal Darda Institute of Engineering & Technology",
+      "instituteCode": "YM003",
+      "state": "Maharashtra",
+      "district": "Yavatmal",
+      "taluka": "Yavatmal",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG"]
+    },
+    {
+      "instituteName": "Vidarbha Institute of Technology",
+      "instituteCode": "YM004",
+      "state": "Maharashtra",
+      "district": "Yavatmal",
+      "taluka": "Darwha",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG"]
+    },
+  
+    {
+      "instituteName": "Rajashri Shahu College of Engineering",
+      "instituteCode": "BL001",
+      "state": "Maharashtra",
+      "district": "Buldhana",
+      "taluka": "Buldhana",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG"]
+    },
+    {
+      "instituteName": "Government Polytechnic Buldhana",
+      "instituteCode": "BL002",
+      "state": "Maharashtra",
+      "district": "Buldhana",
+      "taluka": "Buldhana",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["Diploma"]
+    },
+    {
+      "instituteName": "Shri Sant Gadge Maharaj College of Engineering & Technology",
+      "instituteCode": "BL003",
+      "state": "Maharashtra",
+      "district": "Buldhana",
+      "taluka": "Shegaon",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG"]
+    }
+  ]
+  

@@ -1,0 +1,145 @@
+.home-wrapper {
+  background: linear-gradient(
+    180deg,
+    #f9f4ec 0%,
+    #f6efe6 100%
+  );
+  min-height: 100vh;
+  padding-bottom: 80px;
+}
+
+/* HERO */
+.hero-section {
+  max-width: 900px;
+  margin: auto;
+  padding: 120px 20px 80px;
+  text-align: center;
+}
+
+.hero-title {
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #2b2b2b;
+  margin-bottom: 20px;
+}
+
+.hero-subtitle {
+  font-size: 18px;
+  color: #555;
+  line-height: 1.7;
+  max-width: 700px;
+  margin: 0 auto 35px;
+}
+
+/* BUTTON GROUP */
+.hero-btn-group {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.hero-cta {
+  padding: 14px 34px;
+  font-size: 16px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+/* PRIMARY */
+.hero-cta.primary {
+  background: #111;
+  color: #fff;
+  border: none;
+}
+
+.hero-cta.primary:hover {
+  background: #000;
+  transform: translateY(-2px);
+}
+
+/* SECONDARY */
+.hero-cta.secondary {
+  background: transparent;
+  color: #111;
+  border: 2px solid #111;
+}
+
+.hero-cta.secondary:hover {
+  background: #111;
+  color: #fff;
+  transform: translateY(-2px);
+}
+
+/* FEATURES */
+.features-section {
+  max-width: 1000px;
+  margin: auto;
+  padding: 40px 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+}
+
+.feature-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 26px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
+  transition: transform 0.25s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-4px);
+}
+
+.feature-card h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.feature-card p {
+  font-size: 15px;
+  color: #555;
+  line-height: 1.6;
+}
+
+.hero-actions {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  margin-top: 32px;
+}
+
+/* Primary button (already good) */
+.btn-primary {
+  background: #111111;
+  color: #ffffff;
+  padding: 14px 28px;
+  border-radius: 999px;
+  border: none;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* 🔥 Secondary button – MATCHING STYLE */
+.btn-secondary {
+  background: transparent;
+  color: #111111;
+  padding: 14px 28px;
+  border-radius: 999px;
+  border: 2px solid #111111;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* Hover polish */
+.btn-primary:hover,
+.btn-secondary:hover {
+  opacity: 0.9;
+}

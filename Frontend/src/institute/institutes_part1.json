@@ -1,0 +1,224 @@
+[
+    {
+      "instituteName": "Veermata Jijabai Technological Institute (VJTI)",
+      "instituteCode": "MU001",
+      "state": "Maharashtra",
+      "district": "Mumbai",
+      "taluka": "Mumbai City",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["Diploma", "UG", "PG"]
+    },
+    {
+      "instituteName": "Sardar Patel Institute of Technology (SPIT)",
+      "instituteCode": "MU002",
+      "state": "Maharashtra",
+      "district": "Mumbai",
+      "taluka": "Mumbai City",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG", "PG"]
+    },
+    {
+      "instituteName": "Fr. Conceicao Rodrigues College of Engineering",
+      "instituteCode": "MU003",
+      "state": "Maharashtra",
+      "district": "Mumbai",
+      "taluka": "Mumbai City",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG"]
+    },
+    {
+      "instituteName": "Thakur College of Engineering & Technology",
+      "instituteCode": "MS001",
+      "state": "Maharashtra",
+      "district": "Mumbai Suburban",
+      "taluka": "Borivali",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["Diploma", "UG"]
+    },
+    {
+      "instituteName": "Mukesh Patel School of Technology Management",
+      "instituteCode": "MS002",
+      "state": "Maharashtra",
+      "district": "Mumbai Suburban",
+      "taluka": "Andheri",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG", "PG"]
+    },
+    {
+      "instituteName": "Atharva College of Engineering",
+      "instituteCode": "MS003",
+      "state": "Maharashtra",
+      "district": "Mumbai Suburban",
+      "taluka": "Andheri",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG"]
+    },
+    {
+      "instituteName": "Vidyalankar Institute of Technology",
+      "instituteCode": "MS004",
+      "state": "Maharashtra",
+      "district": "Mumbai Suburban",
+      "taluka": "Kurla",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG", "PG"]
+    },
+    {
+      "instituteName": "Don Bosco Institute of Technology",
+      "instituteCode": "MS005",
+      "state": "Maharashtra",
+      "district": "Mumbai Suburban",
+      "taluka": "Kurla",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG"]
+    },
+  
+    {
+      "instituteName": "Terna Engineering College",
+      "instituteCode": "TH001",
+      "state": "Maharashtra",
+      "district": "Thane",
+      "taluka": "Nerul",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["Diploma", "UG", "PG"]
+    },
+    {
+      "instituteName": "K. J. Somaiya Institute of Engineering & IT",
+      "instituteCode": "TH002",
+      "state": "Maharashtra",
+      "district": "Thane",
+      "taluka": "Kalyan",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG"]
+    },
+    {
+      "instituteName": "Bharati Vidyapeeth College of Engineering",
+      "instituteCode": "TH003",
+      "state": "Maharashtra",
+      "district": "Thane",
+      "taluka": "Navi Mumbai",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG", "PG"]
+    },
+    {
+      "instituteName": "Ramrao Adik Institute of Technology",
+      "instituteCode": "TH004",
+      "state": "Maharashtra",
+      "district": "Thane",
+      "taluka": "Navi Mumbai",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG"]
+    },
+    {
+      "instituteName": "A. P. Shah Institute of Technology",
+      "instituteCode": "TH005",
+      "state": "Maharashtra",
+      "district": "Thane",
+      "taluka": "Thane",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG"]
+    },
+  
+    {
+      "instituteName": "St. John College of Engineering & Technology",
+      "instituteCode": "PA001",
+      "state": "Maharashtra",
+      "district": "Palghar",
+      "taluka": "Vasai",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG"]
+    },
+    {
+      "instituteName": "Viva Institute of Technology",
+      "instituteCode": "PA002",
+      "state": "Maharashtra",
+      "district": "Palghar",
+      "taluka": "Virar",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["Diploma", "UG"]
+    },
+    {
+      "instituteName": "Shree L. R. Tiwari College of Engineering",
+      "instituteCode": "PA003",
+      "state": "Maharashtra",
+      "district": "Palghar",
+      "taluka": "Mira Road",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG"]
+    },
+    {
+      "instituteName": "Ideal Institute of Technology",
+      "instituteCode": "PA004",
+      "state": "Maharashtra",
+      "district": "Palghar",
+      "taluka": "Wada",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["Diploma", "UG"]
+    },
+  
+    {
+      "instituteName": "Konkan Gyanpeeth College of Engineering",
+      "instituteCode": "RG001",
+      "state": "Maharashtra",
+      "district": "Raigad",
+      "taluka": "Karjat",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG"]
+    },
+    {
+      "instituteName": "Anjuman-I-Islam's Kalsekar Technical Campus",
+      "instituteCode": "RG002",
+      "state": "Maharashtra",
+      "district": "Raigad",
+      "taluka": "Panvel",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG", "PG"]
+    },
+    {
+      "instituteName": "Pillai College of Engineering",
+      "instituteCode": "RG003",
+      "state": "Maharashtra",
+      "district": "Raigad",
+      "taluka": "Panvel",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG"]
+    },
+    {
+      "instituteName": "G. V. Acharya Institute of Engineering & Technology",
+      "instituteCode": "RG004",
+      "state": "Maharashtra",
+      "district": "Raigad",
+      "taluka": "Karjat",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["Diploma", "UG"]
+    },
+  
+    {
+      "instituteName": "Dr. Babasaheb Ambedkar Technological University",
+      "instituteCode": "RT001",
+      "state": "Maharashtra",
+      "district": "Ratnagiri",
+      "taluka": "Chiplun",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG", "PG"]
+    },
+    {
+      "instituteName": "Finolex Academy of Management & Technology",
+      "instituteCode": "RT002",
+      "state": "Maharashtra",
+      "district": "Ratnagiri",
+      "taluka": "Ratnagiri",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG"]
+    },
+    {
+      "instituteName": "Government College of Engineering Ratnagiri",
+      "instituteCode": "RT003",
+      "state": "Maharashtra",
+      "district": "Ratnagiri",
+      "taluka": "Ratnagiri",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["Diploma", "UG", "PG"]
+    }
+]
+  
+

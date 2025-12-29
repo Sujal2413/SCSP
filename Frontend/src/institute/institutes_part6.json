@@ -1,0 +1,122 @@
+[
+    {
+      "instituteName": "Government College of Engineering, Jalgaon",
+      "instituteCode": "JG001",
+      "state": "Maharashtra",
+      "district": "Jalgaon",
+      "taluka": "Jalgaon",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG"]
+    },
+    {
+      "instituteName": "SSBT’s College of Engineering & Technology",
+      "instituteCode": "JG002",
+      "state": "Maharashtra",
+      "district": "Jalgaon",
+      "taluka": "Bhusawal",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG", "PG"]
+    },
+    {
+      "instituteName": "Godavari College of Engineering",
+      "instituteCode": "JG003",
+      "state": "Maharashtra",
+      "district": "Jalgaon",
+      "taluka": "Jalgaon",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG"]
+    },
+    {
+      "instituteName": "G. H. Raisoni Institute of Engineering & Business Management",
+      "instituteCode": "JG004",
+      "state": "Maharashtra",
+      "district": "Jalgaon",
+      "taluka": "Jalgaon",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG"]
+    },
+    {
+      "instituteName": "Government Polytechnic, Jalgaon",
+      "instituteCode": "JG005",
+      "state": "Maharashtra",
+      "district": "Jalgaon",
+      "taluka": "Jalgaon",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["Diploma"]
+    },
+  
+    {
+      "instituteName": "Government College of Engineering, Aurangabad",
+      "instituteCode": "AU001",
+      "state": "Maharashtra",
+      "district": "Aurangabad",
+      "taluka": "Aurangabad",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG", "PG"]
+    },
+    {
+      "instituteName": "MGM's College of Engineering",
+      "instituteCode": "AU002",
+      "state": "Maharashtra",
+      "district": "Aurangabad",
+      "taluka": "Aurangabad",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG"]
+    },
+    {
+      "instituteName": "Deogiri Institute of Engineering & Management Studies",
+      "instituteCode": "AU003",
+      "state": "Maharashtra",
+      "district": "Aurangabad",
+      "taluka": "Aurangabad",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG", "PG"]
+    },
+    {
+      "instituteName": "Jawaharlal Nehru Engineering College",
+      "instituteCode": "AU004",
+      "state": "Maharashtra",
+      "district": "Aurangabad",
+      "taluka": "Aurangabad",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG"]
+    },
+    {
+      "instituteName": "Government Polytechnic, Aurangabad",
+      "instituteCode": "AU005",
+      "state": "Maharashtra",
+      "district": "Aurangabad",
+      "taluka": "Aurangabad",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["Diploma"]
+    },
+  
+    {
+      "instituteName": "Matsyodari Shikshan Sanstha’s College of Engineering",
+      "instituteCode": "JA001",
+      "state": "Maharashtra",
+      "district": "Jalna",
+      "taluka": "Jalna",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG"]
+    },
+    {
+      "instituteName": "Government Polytechnic, Jalna",
+      "instituteCode": "JA002",
+      "state": "Maharashtra",
+      "district": "Jalna",
+      "taluka": "Jalna",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["Diploma"]
+    },
+    {
+      "instituteName": "Aditya Engineering College",
+      "instituteCode": "JA003",
+      "state": "Maharashtra",
+      "district": "Jalna",
+      "taluka": "Badnapur",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG"]
+    }
+  ]
+  

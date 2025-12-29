@@ -1,0 +1,228 @@
+[
+    {
+      "instituteName": "College of Engineering Pune (COEP)",
+      "instituteCode": "PU001",
+      "state": "Maharashtra",
+      "district": "Pune",
+      "taluka": "Pune City",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG", "PG"]
+    },
+    {
+      "instituteName": "Vishwakarma Institute of Technology",
+      "instituteCode": "PU002",
+      "state": "Maharashtra",
+      "district": "Pune",
+      "taluka": "Pune City",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG", "PG"]
+    },
+    {
+      "instituteName": "MIT World Peace University - School of Engineering",
+      "instituteCode": "PU003",
+      "state": "Maharashtra",
+      "district": "Pune",
+      "taluka": "Pune City",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG", "PG"]
+    },
+    {
+      "instituteName": "Pune Institute of Computer Technology (PICT)",
+      "instituteCode": "PU004",
+      "state": "Maharashtra",
+      "district": "Pune",
+      "taluka": "Pune City",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG"]
+    },
+    {
+      "instituteName": "Cummins College of Engineering for Women",
+      "instituteCode": "PU005",
+      "state": "Maharashtra",
+      "district": "Pune",
+      "taluka": "Pune City",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG"]
+    },
+  
+    {
+      "instituteName": "D. Y. Patil College of Engineering, Akurdi",
+      "instituteCode": "PU006",
+      "state": "Maharashtra",
+      "district": "Pune",
+      "taluka": "Haveli",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG", "PG"]
+    },
+    {
+      "instituteName": "Pimpri Chinchwad College of Engineering (PCCOE)",
+      "instituteCode": "PU007",
+      "state": "Maharashtra",
+      "district": "Pune",
+      "taluka": "Haveli",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG"]
+    },
+    {
+      "instituteName": "PCCOE&R Ravet",
+      "instituteCode": "PU008",
+      "state": "Maharashtra",
+      "district": "Pune",
+      "taluka": "Haveli",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG"]
+    },
+    {
+      "instituteName": "Sinhgad College of Engineering Vadgaon",
+      "instituteCode": "PU009",
+      "state": "Maharashtra",
+      "district": "Pune",
+      "taluka": "Haveli",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG", "PG"]
+    },
+  
+    {
+      "instituteName": "Smt. Kashibai Navale College of Engineering",
+      "instituteCode": "PU010",
+      "state": "Maharashtra",
+      "district": "Pune",
+      "taluka": "Ambegaon",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG"]
+    },
+    {
+      "instituteName": "D.Y. Patil School of Engineering",
+      "instituteCode": "PU011",
+      "state": "Maharashtra",
+      "district": "Pune",
+      "taluka": "Ambegaon",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["Diploma", "UG"]
+    },
+    {
+      "instituteName": "Bhivarabai Sawant College of Engineering & Research",
+      "instituteCode": "PU012",
+      "state": "Maharashtra",
+      "district": "Pune",
+      "taluka": "Ambegaon",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG"]
+    },
+  
+    {
+      "instituteName": "JSPM Rajarshi Shahu College of Engineering (RSCOE)",
+      "instituteCode": "PU013",
+      "state": "Maharashtra",
+      "district": "Pune",
+      "taluka": "Maval",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG"]
+    },
+    {
+      "instituteName": "Sinhgad Institute of Technology, Lonavala",
+      "instituteCode": "PU014",
+      "state": "Maharashtra",
+      "district": "Pune",
+      "taluka": "Maval",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG"]
+    },
+  
+    {
+      "instituteName": "Dr. D. Y. Patil Institute of Technology (DIT Pimpri)",
+      "instituteCode": "PU015",
+      "state": "Maharashtra",
+      "district": "Pune",
+      "taluka": "Mulshi",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG", "PG"]
+    },
+    {
+      "instituteName": "Indira College of Engineering & Management",
+      "instituteCode": "PU016",
+      "state": "Maharashtra",
+      "district": "Pune",
+      "taluka": "Mulshi",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG"]
+    },
+  
+    {
+      "instituteName": "AISSMS College of Engineering",
+      "instituteCode": "PU017",
+      "state": "Maharashtra",
+      "district": "Pune",
+      "taluka": "Pune City",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG"]
+    },
+  
+    {
+      "instituteName": "MIT Academy of Engineering, Alandi",
+      "instituteCode": "PU018",
+      "state": "Maharashtra",
+      "district": "Pune",
+      "taluka": "Khed",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG", "PG"]
+    },
+    {
+      "instituteName": "Genba Sopanrao Moze College of Engineering",
+      "instituteCode": "PU019",
+      "state": "Maharashtra",
+      "district": "Pune",
+      "taluka": "Khed",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG"]
+    },
+  
+    {
+      "instituteName": "Sinhgad College of Engineering, Junner",
+      "instituteCode": "PU020",
+      "state": "Maharashtra",
+      "district": "Pune",
+      "taluka": "Junnar",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG"]
+    },
+  
+    {
+      "instituteName": "Vidya Pratishthan's College of Engineering",
+      "instituteCode": "PU021",
+      "state": "Maharashtra",
+      "district": "Pune",
+      "taluka": "Baramati",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG"]
+    },
+    {
+      "instituteName": "Sinhgad Institute of Technology & Science, Narhe",
+      "instituteCode": "PU022",
+      "state": "Maharashtra",
+      "district": "Pune",
+      "taluka": "Purandar",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG"]
+    },
+  
+    {
+      "instituteName": "Government Polytechnic Pune",
+      "instituteCode": "PU023",
+      "state": "Maharashtra",
+      "district": "Pune",
+      "taluka": "Pune City",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["Diploma"]
+    },
+    {
+      "instituteName": "CUSROW WADIA Institute of Technology",
+      "instituteCode": "PU024",
+      "state": "Maharashtra",
+      "district": "Pune",
+      "taluka": "Pune City",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["Diploma"]
+    }
+]
+  

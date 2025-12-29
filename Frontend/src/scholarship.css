@@ -1,0 +1,132 @@
+/* FORM CONTAINER */
+.scholarship-form-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+}
+
+.scholarship-card {
+  width: 750px;
+  background: #ffffff;
+  padding: 35px;
+  border-radius: 18px;
+  box-shadow: 0px 8px 22px rgba(0, 0, 0, 0.09);
+  border: 1px solid #e8dcc8;
+}
+
+/* STEP INDICATOR */
+.step-indicator {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  margin-bottom: 32px;
+}
+
+.step-circle {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: 2px solid #d0c4b1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s;
+  background: #faf5ee;
+}
+
+.step-circle:hover {
+  background: #e9dfd0;
+}
+
+.step-active {
+  background: #3a2f28 !important;
+  color: white !important;
+  border-color: #3a2f28 !important;
+}
+
+/* SECTIONS */
+.section-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+  margin-top: 25px;
+  font-family: "Playfair Display";
+  color: #3a2f28;
+}
+
+/* GRID */
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+  margin-bottom: 25px;
+}
+
+/* INPUTS */
+.form-input {
+  padding: 14px;
+  border-radius: 12px;
+  border: 1px solid #dacfc0;
+  background: #fbf7f1;
+  width: 100%;
+  font-size: 15px;
+  color: #333;
+}
+
+.form-input::placeholder {
+  color: #6e6e6e;
+}
+
+/* FILE INPUT FIX */
+input[type="file"] {
+  background: #fbf7f1;
+  padding: 12px;
+  border-radius: 12px;
+  border: 1px solid #dacfc0;
+  font-size: 15px;
+  color: #333;
+}
+
+/* BUTTON ROW */
+.btn-row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+/* BUTTONS */
+.prev-btn, .next-btn {
+  padding: 12px 26px;
+  border-radius: 12px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.prev-btn {
+  background: #c1b19b;
+  color: white;
+}
+
+.prev-btn:hover {
+  background: #aa9880;
+}
+
+.next-btn {
+  background: #3a2f28;
+  color: white;
+}
+
+.next-btn:hover {
+  background: #2b221c;
+}
+
+/* SINGLE COLUMN */
+.form-col {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}

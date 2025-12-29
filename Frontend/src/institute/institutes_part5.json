@@ -1,0 +1,113 @@
+[
+    {
+      "instituteName": "Pravara Rural Engineering College",
+      "instituteCode": "AN001",
+      "state": "Maharashtra",
+      "district": "Ahmednagar",
+      "taluka": "Loni",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG", "PG"]
+    },
+    {
+      "instituteName": "Amrutvahini College of Engineering",
+      "instituteCode": "AN002",
+      "state": "Maharashtra",
+      "district": "Ahmednagar",
+      "taluka": "Sangamner",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG"]
+    },
+    {
+      "instituteName": "Government Polytechnic, Ahmednagar",
+      "instituteCode": "AN003",
+      "state": "Maharashtra",
+      "district": "Ahmednagar",
+      "taluka": "Ahmednagar",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["Diploma"]
+    },
+    {
+      "instituteName": "PVP Institute of Technology",
+      "instituteCode": "AN004",
+      "state": "Maharashtra",
+      "district": "Ahmednagar",
+      "taluka": "Akole",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG"]
+    },
+    {
+      "instituteName": "Sanjivani College of Engineering",
+      "instituteCode": "AN005",
+      "state": "Maharashtra",
+      "district": "Ahmednagar",
+      "taluka": "Kopargaon",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG", "PG"]
+    },
+  
+    {
+      "instituteName": "Fabtech Technical Campus, Sangola",
+      "instituteCode": "DH001",
+      "state": "Maharashtra",
+      "district": "Dhule",
+      "taluka": "Sakri",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG"]
+    },
+    {
+      "instituteName": "SSVPS’s B.S. Deore College of Engineering",
+      "instituteCode": "DH002",
+      "state": "Maharashtra",
+      "district": "Dhule",
+      "taluka": "Dhule",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG"]
+    },
+    {
+      "instituteName": "Government Polytechnic, Dhule",
+      "instituteCode": "DH003",
+      "state": "Maharashtra",
+      "district": "Dhule",
+      "taluka": "Dhule",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["Diploma"]
+    },
+    {
+      "instituteName": "J.T. Mahajan Polytechnic",
+      "instituteCode": "DH004",
+      "state": "Maharashtra",
+      "district": "Dhule",
+      "taluka": "Shirpur",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["Diploma"]
+    },
+  
+    {
+      "instituteName": "Government College of Engineering, Nandurbar",
+      "instituteCode": "NB001",
+      "state": "Maharashtra",
+      "district": "Nandurbar",
+      "taluka": "Nandurbar",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["UG"]
+    },
+    {
+      "instituteName": "Shramik Shaikshanik Prasarak Mandal’s Polytechnic",
+         "instituteCode": "NB002",
+      "state": "Maharashtra",
+      "district": "Nandurbar",
+      "taluka": "Taloda",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["Diploma"]
+    },
+    {
+      "instituteName": "Government Polytechnic, Shahada",
+      "instituteCode": "NB003",
+      "state": "Maharashtra",
+      "district": "Nandurbar",
+      "taluka": "Shahada",
+      "streams": ["Engineering"],
+      "qualificationLevels": ["Diploma"]
+    }
+  ]
+  
