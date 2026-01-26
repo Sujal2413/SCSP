@@ -1,4 +1,4 @@
-name: SCSP CI Pipeline
+name: SCSP CI
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
     branches: ["main"]
 
 jobs:
-  frontend-ci:
+  frontend:
     name: Frontend CI (React)
     runs-on: ubuntu-latest
 
@@ -16,21 +16,21 @@ jobs:
         working-directory: Frontend
 
     steps:
-      - name: Checkout repo
+      - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Node.js
+      - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: 20
 
-      - name: Install dependencies
+      - name: Install deps
         run: npm install
 
       - name: Build
         run: npm run build
 
-  backend-ci:
+  backend:
     name: Backend CI (Django)
     runs-on: ubuntu-latest
 
@@ -39,7 +39,7 @@ jobs:
         working-directory: Backend
 
     steps:
-      - name: Checkout repo
+      - name: Checkout
         uses: actions/checkout@v4
 
       - name: Setup Python
@@ -47,11 +47,10 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Install backend dependencies
+      - name: Install deps
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
       - name: Django checks
-        run: |
-          python manage.py check
+        run: python manage.py check

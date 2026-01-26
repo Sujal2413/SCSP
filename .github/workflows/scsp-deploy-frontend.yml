@@ -1,4 +1,4 @@
-name: Deploy Frontend to GitHub Pages
+name: Deploy Frontend (GitHub Pages)
 
 on:
   push:
@@ -36,7 +36,7 @@ jobs:
       - name: Build
         run: npm run build
 
-      - name: Setup Pages
+      - name: Configure Pages
         uses: actions/configure-pages@v5
 
       - name: Upload artifact
@@ -44,5 +44,5 @@ jobs:
         with:
           path: Frontend/dist
 
-      - name: Deploy to GitHub Pages
+      - name: Deploy
         uses: actions/deploy-pages@v4
