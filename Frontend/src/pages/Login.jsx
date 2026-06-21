@@ -17,55 +17,13 @@ export default function Login() {
     setError("");
     setLoading(true);
 
-    console.log("📝 Login Form: Form submitted with:", { username, password });
-
     try {
-      console.log("🚀 Login Form: Calling AuthContext login function...");
       await login({ username, password });
-      console.log("✅ Login Form: Login successful, navigating to home...");
       navigate("/");
     } catch (err) {
-      console.error("❌ Login Form: Login error:", err);
-      
-      // Handle different types of errors
-      if (err.response) {
-        // Server responded with error status
-        console.error("Server error status:", err.response.status);
-        console.error("Server error data:", err.response.data);
-        
-        const data = err.response.data;
-        if (data) {
-          if (data.error) {
-            setError(data.error);
-          } else if (typeof data === "object") {
-            // Handle validation errors from Django
-            const firstKey = Object.keys(data)[0];
-            const firstError = data[firstKey]?.[0];
-            if (firstError) {
-              setError(firstError);
-            } else {
-              setError("Login failed. Please check your credentials and try again.");
-            }
-          } else {
-            setError("Server error. Please try again later.");
-          }
-        } else {
-          setError("Server error. Please try again later.");
-        }
-        
-      } else if (err.request) {
-        // Network error - no response received
-        console.error("Network error:", err.message);
-        setError("Network error. Please check your internet connection and try again.");
-        
-      } else {
-        // Other errors
-        console.error("Other error:", err.message);
-        setError(err.message || "An unexpected error occurred. Please try again.");
-      }
+      setError(extractError(err));
     } finally {
       setLoading(false);
-      console.log("🏁 Login Form: Login process completed");
     }
   };
 
@@ -123,6 +81,19 @@ export default function Login() {
       </div>
     </div>
   );
+}
+
+function extractError(err) {
+  const data = err?.response?.data;
+  if (data?.error) return data.error;
+  if (data && typeof data === "object") {
+    const firstKey = Object.keys(data)[0];
+    const firstError = Array.isArray(data[firstKey])
+      ? data[firstKey][0]
+      : data[firstKey];
+    if (firstError) return firstError;
+  }
+  return err?.message || "Login failed. Please check your credentials and try again.";
 }
 
 

@@ -1,17 +1,57 @@
+/* ============================================================
+   ALTRUIST DESIGN THEME (adapted from altruist.framer.website)
+   Serif headlines · pastel sections · deep-teal brand
+   ============================================================ */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Instrument+Sans:wght@400;500;600;700&family=Fragment+Mono:ital@0;1&display=swap');
+
 :root {
-  color-scheme: dark;
-  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  color-scheme: light;
+
+  /* Brand */
+  --brand: #16526e;        /* deep teal */
+  --brand-2: #116e99;      /* lighter teal */
+  --accent: #0099ff;       /* bright blue */
+
+  /* Surfaces */
+  --bg: #fffffc;           /* off-white page */
+  --surface: #ffffff;
+  --ink: #14181b;          /* near-black text */
+  --muted: rgba(0, 0, 0, 0.62);
+  --faint: rgba(0, 0, 0, 0.42);
+  --line: rgba(0, 0, 0, 0.08);
+
+  /* Pastel section tints */
+  --peach: #fff2e3;
+  --apricot: #ffead1;
+  --cream: #f9fae3;
+  --sky: #deeff8;
+  --sky-2: #ebf8ff;
+  --mist: #e6edf5;
+  --lavender: #fadbff;
+  --periwinkle: #ddd1ff;
+
+  /* Type */
+  --font-serif: 'Libre Baskerville', Georgia, serif;
+  --font-sans: 'Instrument Sans', system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  --font-mono: 'Fragment Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  /* Shape */
+  --r-card: 18px;
+  --r-pill: 999px;
+  --shadow-sm: 0 4px 14px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 18px 44px rgba(0, 0, 0, 0.08);
+
+  font-family: var(--font-sans);
 }
 
 body {
   margin: 0;
-  background: radial-gradient(1200px 600px at 10% 10%, rgba(255,255,255,0.08), transparent),
-              radial-gradient(1000px 700px at 90% 20%, rgba(255,255,255,0.06), transparent),
-              #0b0f19;
-  color: rgba(255,255,255,0.92);
+  background: var(--bg);
+  color: var(--ink);
+  -webkit-font-smoothing: antialiased;
 }
 
-a { color: rgba(255,255,255,0.9); }
+a { color: var(--brand); }
 * { box-sizing: border-box; }
 /* FORM CONTAINER */
 .scholarship-form-wrapper {

@@ -32,70 +32,75 @@ export default function AuthProvider({ children }) {
 
   // 🔐 LOGIN (FIXED)
   const login = async ({ username, password }) => {
-    console.log("🔐 AuthContext: Starting login process", { username });
-    
     try {
-      console.log("📡 AuthContext: Making API request...");
       const res = await api.post("/api/accounts/login/", {
         username,
         password,
       });
-      
-      console.log("✅ AuthContext: API response received:", res.data);
 
       const { access: a, refresh: r } = res.data;
       
       if (!a || !r) {
-        console.error("❌ AuthContext: Missing tokens in response:", res.data);
         throw new Error("Authentication failed - missing tokens");
       }
 
-      console.log("💾 AuthContext: Storing tokens in localStorage...");
       localStorage.setItem("scsp_access", a);
       localStorage.setItem("scsp_refresh", r);
 
-      console.log("🔄 AuthContext: Updating state...");
       setAccess(a);
       setRefresh(r);
       
-      console.log("✅ AuthContext: Login process completed successfully");
       return true;
       
     } catch (error) {
-      console.error("❌ AuthContext: Login failed:", error);
-      
-      if (error.response) {
-        console.error("Response status:", error.response.status);
-        console.error("Response data:", error.response.data);
-        throw error; // Re-throw to let component handle it
-      } else if (error.request) {
-        console.error("Network error:", error.message);
+      if (error.request && !error.response) {
         throw new Error("Network error - please check your connection");
-      } else {
-        console.error("Request error:", error.message);
-        throw error;
       }
+      throw error;
     }
   };
 
-  // 📝 REGISTER (FIXED)
-  const register = async ({
+  // 📝 REGISTER — step 1: validate details & send OTP to email
+  const initiateRegister = async ({
     username,
     email,
     password,
     full_name,
     mobile,
   }) => {
-    await api.post("/api/accounts/register/", {
+    const res = await api.post("/api/accounts/register/", {
       username,
       email,
       password,
       full_name,
       mobile,
     });
+    return res.data; // { message, email }
+  };
 
-    // Auto-login after register
-    return login({ username, password });
+  // ✅ REGISTER — step 2: verify OTP, create account & sign in
+  const verifyRegistrationOtp = async ({ email, otp }) => {
+    const res = await api.post("/api/accounts/register/verify/", {
+      email,
+      otp,
+    });
+
+    const { access: a, refresh: r } = res.data;
+    if (!a || !r) {
+      throw new Error("Verification succeeded but no tokens were returned.");
+    }
+
+    localStorage.setItem("scsp_access", a);
+    localStorage.setItem("scsp_refresh", r);
+    setAccess(a);
+    setRefresh(r);
+    return true;
+  };
+
+  // 🔁 REGISTER — resend the OTP
+  const resendRegistrationOtp = async (email) => {
+    const res = await api.post("/api/accounts/register/resend/", { email });
+    return res.data; // { message }
   };
 
   // 🚪 LOGOUT
@@ -115,7 +120,9 @@ export default function AuthProvider({ children }) {
       refresh,
       me,
       login,
-      register,
+      initiateRegister,
+      verifyRegistrationOtp,
+      resendRegistrationOtp,
       logout,
     }),
     [access, refresh, me]

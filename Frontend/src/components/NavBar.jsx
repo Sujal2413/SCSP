@@ -13,17 +13,21 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-      {/* LOGO */}
-      <div className="navbar-logo">
-        <Link to="/">SCSP</Link>
-      </div>
+      <div className="navbar-inner">
+        {/* LOGO */}
+        <div className="navbar-logo">
+          <Link to="/">SCSP</Link>
+        </div>
 
-      {/* NAV LINKS */}
-      <div className="navbar-links">
-        <Link to="/" className="nav-link">
-          Home
-        </Link>
+        {/* CENTER NAV LINKS */}
+        <div className="navbar-center">
+          <Link to="/" className="nav-link">Home</Link>
+          <Link to="/schemes" className="nav-link">Schemes</Link>
+          <Link to="/study-abroad" className="nav-link">Study Abroad</Link>
+        </div>
 
+        {/* NAV ACTIONS */}
+        <div className="navbar-links">
         {isAuthed ? (
           <>
             {/* User Email with Letter Icon */}
@@ -41,15 +45,16 @@ const Navbar = () => {
           </>
         ) : (
           <>
-            <Link to="/register" className="nav-btn secondary">
-              Register
+            <Link to="/login" className="nav-btn secondary">
+              Login
             </Link>
 
-            <Link to="/login" className="nav-btn primary">
-              Login
+            <Link to="/register" className="nav-btn primary">
+              Register
             </Link>
           </>
         )}
+        </div>
       </div>
     </nav>
   );
